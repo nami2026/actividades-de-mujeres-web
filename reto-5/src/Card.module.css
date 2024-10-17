@@ -1,0 +1,38 @@
+.cardContainer {
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  .cardTitle {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .cardDescription {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  .cardButton {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  
+    /* Pseudoclase :hover */
+    &:hover {
+      background-color: #0056b3;
+    }
+  }
+  

@@ -1,0 +1,19 @@
+.profile-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    max-width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-name {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 8px;
+  }
+  
+  .profile-description {
+    font-size: 1rem;
+    color: #666;
+  }
+  
